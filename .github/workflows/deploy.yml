@@ -36,8 +36,8 @@ jobs:
       - name: Download Artifact
         uses: actions/download-artifact@v4
         with:
-          name: build
-          path: build
+          name: dist
+          path: dist
 
       - name: Sync Files to cPanel
         uses: sebastianpopp/ftp-action@releases/v2
@@ -45,4 +45,4 @@ jobs:
           host: ${{ secrets.FTP_SERVER }}
           user: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          localDir: "build"
+          localDir: "dist"
