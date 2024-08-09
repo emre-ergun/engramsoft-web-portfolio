@@ -24,3 +24,7 @@ export const links = [
     hash: '#contact',
   },
 ] as const;
+
+import ProfilePicture from '/profile.png';
+
+export { ProfilePicture };
