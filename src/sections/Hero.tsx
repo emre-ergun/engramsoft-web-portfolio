@@ -69,7 +69,7 @@ export default function Hero() {
           Download CV{' '}
           <HiDownload className="opacity-70 group-hover:opacity-100 group-hover:translate-y-1 transition" />
         </a>
-        <div className='flex gap-2'>
+        <div className="flex gap-2">
           <a
             href="https://linkedin.com/in/emrergun"
             target="_blank"
