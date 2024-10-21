@@ -1,6 +1,6 @@
 import { BsArrowRight, BsLinkedin } from 'react-icons/bs';
 import { useActiveSectionContext } from '../../context/active-section-context';
-import { ProfilePicture, testPicture } from '../../lib/data';
+import { testPicture } from '../../lib/data';
 import { useSectionInView } from '../../lib/hooks';
 import { motion } from 'framer-motion';
 import { HiDownload } from 'react-icons/hi';
