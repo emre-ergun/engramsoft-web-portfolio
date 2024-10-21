@@ -26,5 +26,6 @@ export const links = [
 ] as const;
 
 import ProfilePicture from '/profile.png';
+import testPicture from '/test.svg';
 
-export { ProfilePicture };
+export { ProfilePicture, testPicture };

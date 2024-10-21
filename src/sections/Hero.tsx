@@ -1,6 +1,6 @@
 import { BsArrowRight, BsLinkedin } from 'react-icons/bs';
 import { useActiveSectionContext } from '../../context/active-section-context';
-import { ProfilePicture } from '../../lib/data';
+import { ProfilePicture, testPicture } from '../../lib/data';
 import { useSectionInView } from '../../lib/hooks';
 import { motion } from 'framer-motion';
 import { HiDownload } from 'react-icons/hi';
@@ -24,11 +24,9 @@ export default function Hero() {
           >
             <img
               ref={ref}
-              src={ProfilePicture}
+              src={testPicture}
               alt='Emre portrait'
-              width={192}
-              height={192}
-              className='h-28 w-28 rounded-full object-cover border-[0.24rem] border-white shadow-xl'
+              className='h-32 w-32 rounded-full object-cover border-[0.24rem] border-white shadow-xl'
             />
           </motion.div>
         </div>
