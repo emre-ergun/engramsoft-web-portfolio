@@ -17,7 +17,7 @@ export default function Hero() {
       className='mb-28 max-w-[50rem] text-center sm:text-start sm:mb-12 scroll-mt-[100rem]'
     >
       <div className='flex flex-col sm:flex-row-reverse'>
-        <div className='flex items-center justify-center mb-12 sm:mb-0 sm:w-1/2'>
+        <div className='flex items-center justify-center mb-8 sm:mb-0 sm:w-1/2'>
           <div className='relative'>
             <motion.div
               initial={{ opacity: 0, x: 100 }}
@@ -47,32 +47,31 @@ export default function Hero() {
             <span className='font-bold'>React, Next.js & React Native</span>.
           </motion.h1>
           <motion.div
-            className='flex flex-col gap-2 items-center justify-center px-4 text-lg font-medium'
+            className='flex flex-col sm:flex-row  gap-2 items-center justify-start px-4 text-lg font-medium'
             initial={{ opacity: 0, y: 100 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 }}
           >
-            <div className='flex flex-col sm:flex-row gap-2'>
-              <a
-                href='/CV.pdf'
-                download
-                className='group bg-white px-5 py-1 flex items-center justify-around gap-2 rounded-xl borderBlack outline-none hover:scale-105 active:scale-100  transition dark:bg-white/10 text-nowrap'
-              >
-                Download CV{' '}
-                <HiDownload className='opacity-70 group-hover:opacity-100 group-hover:translate-x-1 transition' />
-              </a>
-              <a
-                href='#contact'
-                className='group bg-gray-900 text-white px-5 py-1 flex items-center justify-around gap-2 rounded-xl outline-none hover:scale-105 hover:bg-gray-950 active:scale-100 transition dark:bg-white dark:text-black text-nowrap'
-                onClick={() => {
-                  setActiveSection('Contact');
-                  setTimeOfLastClick(Date.now());
-                }}
-              >
-                Contact me{' '}
-                <BsArrowRight className='opacity-70 group-hover:opacity-100 group-hover:translate-x-1 transition' />
-              </a>
-            </div>
+            <a
+              href='/EmreErgunCV01072024.pdf'
+              download
+              className='group bg-white px-5 py-1 flex w-1/2 items-center justify-around gap-2 rounded-xl borderBlack outline-none hover:scale-105 active:scale-100  transition dark:bg-white/10 text-nowrap'
+            >
+              Download CV{' '}
+              <HiDownload className='opacity-70 group-hover:opacity-100 group-hover:translate-x-1 transition' />
+            </a>
+            <a
+              href='#contact'
+              className='group bg-gray-900 text-white px-5 py-1 flex w-1/2 items-center justify-around gap-2 rounded-xl outline-none hover:scale-105 hover:bg-gray-950 active:scale-100 transition dark:bg-white dark:text-black text-nowrap'
+              onClick={() => {
+                setActiveSection('Contact');
+                setTimeOfLastClick(Date.now());
+              }}
+            >
+              Contact me{' '}
+              <BsArrowRight className='opacity-70 group-hover:opacity-100 group-hover:translate-x-1 transition' />
+            </a>
+
             {/* <div className='flex gap-2'>
               <a
                 href='https://linkedin.com/in/emrergun'
