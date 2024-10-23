@@ -25,6 +25,24 @@ export const links = [
   },
 ] as const;
 
+export const skillsData = [
+  'HTML',
+  'CSS',
+  'JavaScript',
+  'TypeScript',
+  'React',
+  'React Native',
+  'Next.js',
+  'Expo',
+  'Git',
+  'Tailwind',
+  'Nativewind',
+  'React Context',
+  'Python',
+  'Rust',
+  'Framer Motion',
+] as const;
+
 import ProfilePicture from '/profile.png';
 import testPicture from '/test.svg';
 

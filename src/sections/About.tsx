@@ -9,11 +9,12 @@ const About = () => {
     <motion.section
       initial={{ opacity: 0, y: 100 }}
       whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
       id='about'
       className='mb-28 max-w-[44rem] text-center sm:mb-40 scroll-mt-28 !leading-8'
     >
       <SectionHeader title='About me' />
-      <p className='mb-3 text-lg'>
+      <p ref={ref} className='mb-3 text-lg'>
         After <span className='font-semibold'>10+ years</span> of working on
         low-level software development, I have moved into web application
         development, focusing on{' '}
@@ -25,7 +26,7 @@ const About = () => {
         <span className='font-semibold'>dynamic and responsive</span> web
         applications that deliver a great user experience.
       </p>
-      <p ref={ref} className='text-lg'>
+      <p className='text-lg'>
         Learning web technologies has allowed me to{' '}
         <span className='font-semibold'>develop applications</span> that are
         both <span className='font-semibold'>functional and user-friendly</span>
