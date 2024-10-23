@@ -26,7 +26,10 @@ const Skills = () => {
       className='mb-28 max-w-[50rem] text-center sm:mb-40 scroll-mt-28'
     >
       <SectionHeader title='My Skills' />
-      <ul className='flex flex-wrap justify-center gap-2 text-lg text-gray-800'>
+      <ul
+        ref={ref}
+        className='flex flex-wrap justify-center gap-2 text-lg text-gray-800'
+      >
         {skillsData.map((skill, index) => (
           <motion.li
             className='bg-white borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80'
@@ -43,7 +46,6 @@ const Skills = () => {
           </motion.li>
         ))}
       </ul>
-      <div ref={ref}></div>
     </section>
   );
 };
