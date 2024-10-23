@@ -43,7 +43,6 @@ export const skillsData = [
   'Framer Motion',
 ] as const;
 
-import ProfilePicture from '/profile.png';
-import testPicture from '/test.svg';
+import ProfilePicture from '/profile.svg';
 
-export { ProfilePicture, testPicture };
+export { ProfilePicture };

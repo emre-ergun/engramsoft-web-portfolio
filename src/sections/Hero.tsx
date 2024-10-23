@@ -1,6 +1,6 @@
 import { BsArrowRight } from 'react-icons/bs';
 import { useActiveSectionContext } from '../../context/active-section-context';
-import { testPicture } from '../../lib/data';
+import { ProfilePicture } from '../../lib/data';
 import { useSectionInView } from '../../lib/hooks';
 import { motion } from 'framer-motion';
 import { HiDownload } from 'react-icons/hi';
@@ -22,8 +22,8 @@ export default function Hero() {
               animate={{ opacity: 1, x: 0 }}
             >
               <img
-                src={testPicture}
-                alt='Emre portrait'
+                src={ProfilePicture}
+                alt='Emre profile illustrate'
                 className='h-32 w-32 rounded-full object-cover border-[0.24rem] border-white shadow-xl sm:border-none sm:h-full sm:w-full sm:rounded-none sm:shadow-none'
               />
             </motion.div>
