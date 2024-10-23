@@ -1,4 +1,5 @@
 import { useSectionInView } from '../../lib/hooks';
+import SectionHeader from '../components/SectionHeader';
 
 const Skills = () => {
   const { ref } = useSectionInView('Skills');
@@ -6,10 +7,10 @@ const Skills = () => {
   return (
     <section
       id='skills'
-      className='mb-28 max-w-[50rem] text-center sm:mb-12 scroll-mt-28'
+      className='mb-28 max-w-[50rem] text-center sm:mb-40 scroll-mt-28'
     >
-      <div className='h-[1024px] w-32'></div>
-      <text ref={ref}>Skills</text>
+      <SectionHeader title='Skills' />
+      <div ref={ref} className='h-[1024px] w-32'></div>
     </section>
   );
 };

@@ -8,8 +8,8 @@ const Contact = () => {
       id='contact'
       className='mb-28 max-w-[50rem] text-center sm:mb-12 scroll-mt-28'
     >
-      <div className='h-[1024px] w-32'></div>
       <text ref={ref}>Contact</text>
+      <div className='h-[1024px] w-32'></div>
     </section>
   );
 };
