@@ -28,7 +28,7 @@ const Skills = () => {
       <SectionHeader title='My Skills' />
       <ul
         ref={ref}
-        className='flex flex-wrap justify-center gap-2 text-lg text-gray-800'
+        className='flex flex-wrap justify-center gap-3 text-lg text-gray-800'
       >
         {skillsData.map((skill, index) => (
           <motion.li

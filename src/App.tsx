@@ -9,7 +9,6 @@ import Projects from './sections/Projects';
 import Experience from './sections/Experience';
 import Contact from './sections/Contact';
 import Footer from './components/Footer';
-import SectionDivider from './components/SectionDivider';
 
 function App() {
   return (
@@ -18,7 +17,6 @@ function App() {
         <main className='flex flex-col items-center px-4'>
           <Header />
           <Hero />
-          <SectionDivider />
           <About />
           <Skills />
           <Projects />
