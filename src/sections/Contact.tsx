@@ -24,6 +24,7 @@ const Contact = () => {
           setPending(false);
         },
         error => {
+          console.log(error);
           toast.error(error.text);
           setPending(false);
         }
