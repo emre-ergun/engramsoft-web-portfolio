@@ -3,7 +3,8 @@ import ProfilePicture from '/profile.svg';
 import corpcommentImg from '/corpcomment.png';
 import rmtdevImg from '/rmtdev.png';
 import wordanalyticsImg from '/wordanalytics.png';
-import { CgWorkAlt } from 'react-icons/cg';
+import portfolioSite from '/portfolio.png';
+import { VscDebugConsole } from 'react-icons/vsc';
 import { FaReact } from 'react-icons/fa';
 import { LuGraduationCap } from 'react-icons/lu';
 
@@ -43,6 +44,7 @@ export const skillsData = [
   'React Native',
   'Next.js',
   'Expo',
+  'Vite',
   'Git',
   'Tailwind',
   'Nativewind',
@@ -54,52 +56,63 @@ export const skillsData = [
 
 export const experiencesData = [
   {
-    title: 'Graduated bootcamp',
-    location: 'Miami, FL',
+    title: 'Senior Software Engineer',
+    location: 'Istanbul, Turkey',
     description:
-      'I graduated after 6 months of studying. I immediately found a job as a front-end developer.',
-    icon: React.createElement(LuGraduationCap),
-    date: '2019',
-  },
-  {
-    title: 'Front-End Developer',
-    location: 'Orlando, FL',
-    description:
-      'I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.',
-    icon: React.createElement(CgWorkAlt),
-    date: '2019 - 2021',
-  },
-  {
-    title: 'Full-Stack Developer',
-    location: 'Houston, TX',
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      'I have been developing web and mobile apps using React, Next.js, and React Native. ',
     icon: React.createElement(FaReact),
-    date: '2021 - present',
+    date: '2024 - present',
+  },
+  {
+    title: 'Senior Software Engineer',
+    location: 'Istanbul, Turkey',
+    description:
+      'I have been developing software for embedded platforms. I have a strong background in C, and I am also proficient in Python, Rust, C++, and JavaScript. My experience includes developing high-quality software for IoT solutions, CI/CD processes, and system design.',
+    icon: React.createElement(VscDebugConsole),
+    date: '2013 - present',
+  },
+  {
+    title: 'Graduated University',
+    location: 'Trabzon, Turkey',
+    description:
+      'Bachelor of Science in Electrical and Electronics Engineering.',
+    icon: React.createElement(LuGraduationCap),
+    date: '2012',
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: 'CorpComment',
+    title: 'Portfolio Web Site',
     description:
-      'I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.',
+      'I developed my own portfolio website. I used modern frameworks and focused on responsive design. It is automaticaly built and deployed to the cpanel.',
+    tags: ['React', 'Tailwind', 'Emailjs', 'Tailwind', 'Vite', 'Github CI/CD'],
+    imageUrl: portfolioSite,
+    url: 'https://engramsoft.com',
+  },
+  {
+    title: 'Lorem ipsum dolor',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ut erat lobortis, ullamcorper velit eget, bibendum nibh. Duis scelerisque ipsum eu est eleifend venenatis.',
     tags: ['React', 'Next.js', 'MongoDB', 'Tailwind', 'Prisma'],
     imageUrl: corpcommentImg,
+    url: 'https://engramsoft.com',
   },
   {
-    title: 'rmtDev',
+    title: 'Lorem ipsum dolor',
     description:
-      'Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.',
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ut erat lobortis, ullamcorper velit eget, bibendum nibh. Duis scelerisque ipsum eu est eleifend venenatis.',
     tags: ['React', 'TypeScript', 'Next.js', 'Tailwind', 'Redux'],
     imageUrl: rmtdevImg,
+    url: 'https://engramsoft.com',
   },
   {
-    title: 'Word Analytics',
+    title: 'Lorem ipsum dolor',
     description:
-      'A public web app for quick analytics on text. It shows word count, character count and social media post limits.',
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ut erat lobortis, ullamcorper velit eget, bibendum nibh. Duis scelerisque ipsum eu est eleifend venenatis.',
     tags: ['React', 'Next.js', 'SQL', 'Tailwind', 'Framer'],
     imageUrl: wordanalyticsImg,
+    url: 'https://engramsoft.com',
   },
 ] as const;
 
