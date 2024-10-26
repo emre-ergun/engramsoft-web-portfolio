@@ -10,7 +10,7 @@ const Projects = () => {
   return (
     <section
       id='projects'
-      className='mb-28 max-w-[50rem] text-center sm:mb-12 scroll-mt-28'
+      className='mb-28 max-w-[50rem] text-center sm:mb-40 scroll-mt-28'
     >
       <SectionHeader title='My Projects' />
       <div ref={ref} className='flex flex-col'>

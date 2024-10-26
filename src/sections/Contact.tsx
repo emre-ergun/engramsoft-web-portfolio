@@ -32,9 +32,8 @@ const Contact = () => {
 
   return (
     <motion.section
-      ref={ref}
       id='contact'
-      className='mb-20 sm:mb-28 w-[min(100%,38rem)] text-center'
+      className='mb-28 sm:mb-40 w-[min(100%,38rem)] text-center scroll-mt-28'
       initial={{
         opacity: 0,
       }}
@@ -77,6 +76,7 @@ const Contact = () => {
           maxLength={5000}
         />
         <button
+          ref={ref}
           type='submit'
           className='group flex items-center justify-center gap-2 h-[3rem] w-[8rem] bg-gray-900 text-white rounded-xl outline-none transition-all focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 dark:bg-white dark:bg-opacity-10 disabled:scale-100 disabled:bg-opacity-65'
           disabled={pending}

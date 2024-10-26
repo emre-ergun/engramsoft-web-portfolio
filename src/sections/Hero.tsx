@@ -13,7 +13,7 @@ export default function Hero() {
   return (
     <section
       id='home'
-      className='max-w-[64rem] text-center sm:text-start mb-12 scroll-mt-[100rem] h-[calc(100vh-7rem)]'
+      className='max-w-[64rem] text-center sm:text-start mb-28 sm:mb-40 scroll-mt-[100rem] h-[calc(100vh-7rem)]'
     >
       <div className='flex flex-col h-full items-center justify-center'>
         <div className='flex flex-col sm:flex-row-reverse h-full items-center justify-center'>

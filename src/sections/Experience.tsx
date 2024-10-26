@@ -17,7 +17,7 @@ const Experience = () => {
     <section
       ref={ref}
       id='experience'
-      className='mb-28 text-center sm:mb-12 scroll-mt-28'
+      className='mb-28 text-center sm:mb-40 scroll-mt-28'
     >
       <SectionHeader title='My Experience' />
       <VerticalTimeline lineColor=''>
