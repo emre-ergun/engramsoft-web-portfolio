@@ -45,7 +45,7 @@ export default function Header() {
                       stiffness: 380,
                       damping: 30,
                     }}
-                    className='bg-[rgba(173,109,244,0.2)] rounded-full absolute inset-0 -z-10 dark:bg-[rgba(121,55,102,0.5)]'
+                    className='bg-[rgba(174,173,230,0.2)] rounded-full absolute inset-0 -z-10 dark:bg-[rgba(121,55,102,0.5)]'
                   ></motion.span>
                 )}
               </a>
