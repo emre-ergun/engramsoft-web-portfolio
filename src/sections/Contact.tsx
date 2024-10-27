@@ -50,8 +50,8 @@ const Contact = () => {
       <SectionHeader title='Contact me' />
       <p className='text-gray-700 -mt-6 dark:text-white/80'>
         Please contact me directly at{' '}
-        <a className='underline' href='mailto:emreergun@engramsoft.com'>
-          emreergun@engramsoft.com
+        <a className='underline' href='mailto:pvt.emreergun@gmail.com'>
+          pvt.emreergun@gmail.com
         </a>{' '}
         or through this form.
       </p>

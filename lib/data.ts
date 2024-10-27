@@ -51,13 +51,14 @@ export const skillsData = [
   'React Context',
   'Python',
   'Rust',
+  'C/C++',
   'Framer Motion',
 ] as const;
 
 export const experiencesData = [
   {
     title: 'Senior Software Engineer',
-    location: 'Istanbul, Turkey',
+    location: 'EngramSoft - Istanbul, Turkey',
     description:
       'I have been developing web and mobile apps using React, Next.js, and React Native. ',
     icon: React.createElement(FaReact),
@@ -65,7 +66,7 @@ export const experiencesData = [
   },
   {
     title: 'Senior Software Engineer',
-    location: 'Istanbul, Turkey',
+    location: 'Tech Companies - Istanbul, Turkey',
     description:
       'I have been developing software for embedded platforms. I have a strong background in C, and I am also proficient in Python, Rust, C++, and JavaScript. My experience includes developing high-quality software for IoT solutions, CI/CD processes, and system design.',
     icon: React.createElement(VscDebugConsole),
@@ -73,11 +74,11 @@ export const experiencesData = [
   },
   {
     title: 'Graduated University',
-    location: 'Trabzon, Turkey',
+    location: 'Karadeniz Technical University - Trabzon, Turkey',
     description:
       'Bachelor of Science in Electrical and Electronics Engineering.',
     icon: React.createElement(LuGraduationCap),
-    date: '2012',
+    date: '2007  - 2012',
   },
 ] as const;
 

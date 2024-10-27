@@ -50,7 +50,7 @@ export default function Hero() {
               animate={{ opacity: 1, y: 0 }}
             >
               <a
-                href='/EmreErgunCV01072024.pdf'
+                href='/EmreErgun271024Web.pdf'
                 download
                 className='group bg-white px-5 py-1 flex w-1/2 items-center justify-center gap-2 rounded-xl borderBlack outline-none hover:scale-105 active:scale-100  transition dark:bg-white/10 text-nowrap'
               >
