@@ -10,6 +10,15 @@ const Contact = () => {
   const { ref } = useSectionInView('Contact');
   const formRef = useRef<HTMLFormElement>(null);
   const [pending, setPending] = useState(false);
+  const [formData, setFormData] = useState({
+    email: '',
+    message: '',
+  });
+
+  const resetDataAndGoHome = () => {
+    setFormData({ email: '', message: '' });
+    scrollTo(0, 0);
+  };
 
   const sendEmail = (e: any) => {
     e.preventDefault();
@@ -22,6 +31,7 @@ const Contact = () => {
         () => {
           toast.success('Email sent successfully!');
           setPending(false);
+          resetDataAndGoHome();
         },
         error => {
           toast.error(error);
@@ -64,6 +74,8 @@ const Contact = () => {
           className='h-14 px-4 rounded-lg borderBlack dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none'
           name='senderEmail'
           type='email'
+          value={formData.email}
+          onChange={e => setFormData({ ...formData, email: e.target.value })}
           required
           maxLength={500}
           placeholder='Your email'
@@ -72,6 +84,8 @@ const Contact = () => {
           className='h-52 my-3 rounded-lg borderBlack p-4 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none'
           name='message'
           placeholder='Your message'
+          value={formData.message}
+          onChange={e => setFormData({ ...formData, message: e.target.value })}
           required
           maxLength={5000}
         />
