@@ -34,7 +34,7 @@ const Contact = () => {
           resetDataAndGoHome();
         },
         error => {
-          toast.error(error);
+          toast.error(error.text.split('.')[0] + '!');
           setPending(false);
         }
       );
