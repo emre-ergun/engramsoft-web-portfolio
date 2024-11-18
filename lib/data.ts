@@ -1,9 +1,9 @@
 import React from 'react';
 import ProfilePicture from '/profile.svg';
-import corpcommentImg from '/corpcomment.png';
 import rmtdevImg from '/rmtdev.png';
 import wordanalyticsImg from '/wordanalytics.png';
 import portfolioSite from '/portfolio.png';
+import blogSite from '/blog.png';
 import { VscDebugConsole } from 'react-icons/vsc';
 import { FaReact } from 'react-icons/fa';
 import { LuGraduationCap } from 'react-icons/lu';
@@ -87,17 +87,17 @@ export const projectsData = [
     title: 'Portfolio Web Site',
     description:
       'I developed my own portfolio website. I used modern frameworks and focused on responsive design. It is automaticaly built and deployed to the cpanel.',
-    tags: ['React', 'Tailwind', 'Emailjs', 'Tailwind', 'Vite', 'Github CI/CD'],
+    tags: ['React', 'Tailwind', 'TypeScript', 'Emailjs', 'Tailwind', 'Vite', 'Github CI/CD'],
     imageUrl: portfolioSite,
-    url: 'https://engramsoft.com',
+    url: 'https://portfolio.engramsoft.com',
   },
   {
-    title: 'Lorem ipsum dolor',
+    title: 'Blog Web Site (WIP)',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ut erat lobortis, ullamcorper velit eget, bibendum nibh. Duis scelerisque ipsum eu est eleifend venenatis.',
-    tags: ['React', 'Next.js', 'MongoDB', 'Tailwind', 'Prisma'],
-    imageUrl: corpcommentImg,
-    url: 'https://engramsoft.com',
+    'I developed a blog website. It is based on React and React Router. I used Supabase as a backend. I used React TipTap Editor for editing posts.',
+    tags: ['React', 'Tailwind', 'TypeScript', 'React Router', 'Supabase', 'TipTap Editor', 'Githun CI/CD'],
+    imageUrl: blogSite,
+    url: 'https://blog.engramsoft.com',
   },
   {
     title: 'Lorem ipsum dolor',
