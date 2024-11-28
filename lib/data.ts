@@ -92,10 +92,10 @@ export const projectsData = [
     url: 'https://portfolio.engramsoft.com',
   },
   {
-    title: 'Blog Web Site (WIP)',
+    title: 'Blog Web Site',
     description:
-    'I developed a blog website. It is based on React and React Router. I used Supabase as a backend. I used React TipTap Editor for editing posts.',
-    tags: ['React', 'Tailwind', 'TypeScript', 'React Router', 'Supabase', 'TipTap Editor', 'Githun CI/CD'],
+    'I developed a blog website. It is based on React and React Router. Supabase as a backend and TipTap for creating new posts. You can test editor on New Post page.',
+    tags: ['React', 'Tailwind', 'TypeScript', 'React Router', 'Supabase', 'TipTap', 'React Query'],
     imageUrl: blogSite,
     url: 'https://blog.engramsoft.com',
   },

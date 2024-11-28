@@ -30,7 +30,7 @@ export default function Hero() {
               />
             </motion.div>
           </div>
-          <div className='flex flex-col sm:w-1/2 sm:h-auto w-auto h-2/3'>
+          <div className='flex flex-col sm:w-1/2 sm:h-auto w-auto h-2/3 text-center'>
             <motion.h1
               className='mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] md:text-3xl'
               initial={{ opacity: 0, x: -100 }}
@@ -39,7 +39,7 @@ export default function Hero() {
               <span>
                 Hello, I'm <span className='font-bold'>Emre</span>.
               </span>{' '}
-              I'm a <span className='font-bold'>Senior Software Engineer</span>{' '}
+              I'm a <span className='font-bold text-nowrap'>Senior Software Engineer</span>{' '}
               with <span className='font-bold'>10+ years</span> of experience.
               Building <span className='font-bold'>sites & apps</span> using{' '}
               <span className='font-bold'>React, Next.js & React Native</span>.
