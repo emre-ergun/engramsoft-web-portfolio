@@ -119,7 +119,7 @@ export const projectsData = [
   {
     title: 'Admin Dashboard',
     description:
-      'I developed an Admin Dashboard to manage products, categories and orders. It is able to send notifications to mobile application. It is based on Next.js and Typescript. It is a video tuturial from freecodecamp.org',
+      'I developed an Admin Dashboard to manage products, categories and orders. It is able to send notifications to mobile application. It is based on Next.js and Typescript. It is a video tutorial from freecodecamp.org',
     tags: [
       'Next.js',
       'Typescript',
@@ -134,7 +134,7 @@ export const projectsData = [
   {
     title: 'Mobile App - Shopping',
     description:
-      'I developed a mobile applicaiton for online shopping. It is based on React Native and Expo. It is a video tuturial from freecodecamp.org',
+      'I developed a mobile applicaiton for online shopping. It is based on React Native and Expo. It is a video tutorial from freecodecamp.org',
     tags: [
       'React Native',
       'expo',
