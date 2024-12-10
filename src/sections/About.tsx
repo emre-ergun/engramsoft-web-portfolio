@@ -16,15 +16,15 @@ const About = () => {
       <SectionHeader title='About me' />
       <p ref={ref} className='mb-6 text-lg sm:text-xl'>
         After <span className='font-semibold'>10+ years</span> of working on
-        low-level software development, I have moved into web application
-        development, focusing on{' '}
+        low-level software development, I have moved into web and mobile
+        application development, focusing on{' '}
         <span className='font-semibold'>modern frameworks</span> like{' '}
         <span className='font-semibold'>React, React Native, and Next.js</span>.
         My experience with embedded systems and industrial automation gave me
         strong problem-solving skills and a good understanding of software
         architecture. Now, I am applying these skills to create{' '}
-        <span className='font-semibold'>dynamic and responsive</span> web
-        applications that deliver a great user experience.
+        <span className='font-semibold'>dynamic and responsive</span> web and
+        mobile applications that deliver a great user experience.
       </p>
       <p className='text-lg sm:text-xl'>
         Learning web technologies has allowed me to{' '}
