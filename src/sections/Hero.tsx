@@ -43,8 +43,9 @@ export default function Hero() {
               <span className='font-bold text-nowrap'>
                 Senior Software Engineer
               </span>{' '}
-              with <span className='font-bold'>10+ years</span> of experience.
-              Building <span className='font-bold'>sites & apps</span> using{' '}
+              with <span className='font-bold'>over 10 years</span> of
+              experience. Building{' '}
+              <span className='font-bold'>sites & apps</span> using{' '}
               <span className='font-bold'>React, Next.js & React Native</span>.
             </motion.h1>
             <motion.div
@@ -53,7 +54,7 @@ export default function Hero() {
               animate={{ opacity: 1, y: 0 }}
             >
               <a
-                href='/EmreErgunCV10122024Web.pdf'
+                href='/EmreErgunCV-WFBM.pdf'
                 download
                 className='group bg-white px-5 py-1 flex w-1/2 items-center justify-center gap-2 rounded-xl borderBlack outline-none hover:scale-105 active:scale-100  transition dark:bg-white/10 text-nowrap'
               >

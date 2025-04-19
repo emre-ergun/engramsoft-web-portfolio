@@ -15,29 +15,25 @@ const About = () => {
     >
       <SectionHeader title='About me' />
       <p ref={ref} className='mb-6 text-lg sm:text-xl'>
-        After <span className='font-semibold'>10+ years</span> of working on
-        low-level software development, I have moved into web and mobile
-        application development, focusing on{' '}
-        <span className='font-semibold'>modern frameworks</span> like{' '}
-        <span className='font-semibold'>React, React Native, and Next.js</span>.
-        My experience with embedded systems and industrial automation gave me
-        strong problem-solving skills and a good understanding of software
-        architecture. Now, I am applying these skills to create{' '}
-        <span className='font-semibold'>dynamic and responsive</span> web and
-        mobile applications that deliver a great user experience.
+        I started my journey in low-level programming, developing embedded
+        systems with C and C++ for industries like aviation, industrial
+        automation, and IoT. Over the past few years, I’ve expanded into modern
+        web and mobile development using TypeScript, React, React Native, and
+        Next.js — blending my deep understanding of system architecture with the
+        agility of full-stack JavaScript ecosystems.
+      </p>
+      <p className='text-lg mb-6 sm:text-xl'>
+        Whether I’m designing real-time tracking systems with BLE and MQTT or
+        building responsive UIs and RESTful backends, I bring a problem-solving
+        mindset, clean code practices, and a passion for thoughtful
+        architecture. I’ve worked across international teams, built CI/CD
+        pipelines, and deployed products used in real-world applications — from
+        embedded platforms to cloud-hosted web dashboards.
       </p>
       <p className='text-lg sm:text-xl'>
-        Learning web technologies has allowed me to{' '}
-        <span className='font-semibold'>develop applications</span> that are
-        both <span className='font-semibold'>functional and user-friendly</span>
-        . I focus on building{' '}
-        <span className='font-semibold'>web and mobile solutions</span> using{' '}
-        <span className='font-semibold'>React and React Native</span>, while
-        also exploring{' '}
-        <span className='font-semibold'>server-side rendering</span> with{' '}
-        <span className='font-semibold'>Next.js</span>. My background helps me
-        bring a unique perspective to web development, enabling me to design
-        efficient and well-structured applications.
+        Now, I’m channeling my experience into creative, user-focused
+        applications and looking forward to shaping the next generation of tech
+        — one project at a time.
       </p>
     </motion.section>
   );
